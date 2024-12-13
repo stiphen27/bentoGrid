@@ -1,0 +1,356 @@
+html{
+    width: 100%;
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.container{
+    margin: 2% 12%;
+    width: 100%;
+    display: flex;
+}
+.leftSide{
+    display: block;
+    width: 20%;
+    height: auto;
+}
+
+.left1{
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 10px;
+    text-align: left;
+    font-weight: 500;
+    padding: 18px;
+    margin-top: 0;
+    margin-bottom: 8%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    line-height: 100%;
+}
+.left2{
+    border-radius: 10px;
+    text-align: left;
+    font-weight: 500;
+    padding: 20px;
+    padding-top: 0.5px;
+    background-color: hsl(39, 100%, 71%);
+    font-size: 30px;
+    line-height: 100%;
+}
+
+.left1IMG, .left2IMG{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 0.75rem;
+}
+.center{
+    width: 40%;
+    margin-top: 0;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.center1{
+    background-color: hsl(256, 67%, 59%);
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.center1 img{
+    max-width: 35%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 0.75rem;
+}
+.title{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.center2{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.center2A{
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    padding: 15px;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 95%;
+    background-color: white;
+    margin-right: 5%;
+}
+.center2A p{
+    margin-bottom: 4px;
+}
+.center2A img{
+    max-width: 150%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 0.75rem;
+    margin-bottom: -5%;
+    clip-path: inset(0% 30% 0% 0%);
+    border-radius: 20px;
+}
+.center2B{
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    padding: 0px 20px 0px 20px;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 85%;
+    background-color: hsl(39, 100%, 71%);
+}
+
+.center2B img{
+    max-width: 100%;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    shape-margin: 0.75rem;
+    clip-path: inset(0% 0% 40% 0%);
+    margin-bottom: -60px;
+    overflow: auto;
+    margin-top: -20px;
+    
+}
+.center3{
+    display: flex;
+
+}
+.center3A{
+    border-radius: 10px;
+    width: 43%;
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: white;
+    font-size: 18px;
+    padding: 15px 0px 15px 15px;
+}
+.porcentage{
+    font-size: 45px;
+    margin: 0
+}
+.center3A p{
+    margin-top: 0;
+}
+.center3A img{
+    max-width: 75%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 0.75rem;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 5%;
+}
+.center3B{
+    display: flex;
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 5%;
+    padding-right: 10px;
+    margin-right: -300px;
+    height: 12em;
+    font-weight: 500;
+}
+.center3B p{
+    color: white;
+    text-align: left;
+    font-size: 35px;
+    margin-top: 8%;
+    line-height: 35px;
+    
+}
+.center3B img{
+    padding: 20px;
+    max-width: 45%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    shape-margin: 0.75rem;
+}
+.rightTop{
+    width: 35%;
+    background-color: hsl(254, 88%, 90%);
+    border-radius: 10px;
+    padding: 15px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.rightTitle{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+}
+.rightTop img{
+    max-width: 150%;
+    clip-path: inset(0% 40% 0% 0%);
+    margin-right: -135px;
+    padding-bottom: 10px;
+    float: right;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    shape-margin: 0.75rem;
+}
+
+@media screen and (max-width:375px){
+html{
+    width: 100%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin: 5px -5px;
+    flex-direction: column;
+}
+.title{
+    line-height: 90%;
+    margin: 15px 35px;
+}
+.center{
+    width: 100%;
+    order: 0;
+}
+.center1{
+    width: 100%;
+    margin-bottom: 10%;
+}
+.center2{
+    width: 100%;
+    flex-direction: column;
+}
+.center2A{
+    width: 92%;
+    margin-bottom: 10%;
+}
+.center2B{
+    width: 90%;
+    margin-bottom: 5%;
+}
+.center2B img{
+    max-width: 75%;
+    margin-top: 0;
+    margin-bottom: 0;
+    clip-path: inset(0% 0% 0% 0%);
+}
+.center3{
+    width: 100%;
+    flex-direction: column;
+}
+.center3A{
+    width: 97%;
+    margin-bottom: 10%;
+}
+.center3A img{
+    max-width: 60%;
+}
+.center3B{
+    width: 97%;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 1px;
+    height: auto;
+    padding: 15px;
+    padding-right: 0;
+    margin-left: 0;
+    margin-bottom: 10%;
+}
+.center3B p{
+    font-size: 39px;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 12px;
+    margin-right: 30px;
+    margin: 10px;
+}
+.center3B img{
+    max-width: 75%;
+}
+.leftSide{
+    width: 100%;
+    margin-left: 10px;
+    order: 2;
+}
+.left1{
+    width: 96%;
+    padding: 20px;
+    padding-right: 0;
+}
+.left1 p{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.left1IMG{
+    max-width: 50%;
+}
+.left2{
+    width: 91%;
+    font-size: 31px;
+}
+.left2IMG{
+    max-width: 70%;
+}
+.rightSide{
+    width: 100%;
+    order: 1;
+}
+.rightTop{
+    width: 90%;
+    margin-left: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 10%;
+}
+.rightTop img{
+    max-width: 100%;
+    float:none;
+    vertical-align: middle;
+    clip-path: inset(0% 0% 0% 0%);
+    margin-right: 0;
+}
+.rightTitle{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 0%;
+} 
+}
